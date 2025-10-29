@@ -1,0 +1,26 @@
+.navMenu {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.active {
+  opacity: 1 !important;
+  color: #fbff00 !important;
+}
+
+.navItem {
+  a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: 0.2s all;
+  }
+
+  a:hover {
+    opacity: 1;
+    transition: 0.2s all;
+  }
+}

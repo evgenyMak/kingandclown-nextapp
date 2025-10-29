@@ -1,0 +1,9 @@
+.albumItem {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.albumName {
+  text-decoration: none;
+}

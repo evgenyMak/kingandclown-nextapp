@@ -1,7 +1,18 @@
-import type { NextConfig } from "next";
+// next.config.ts
+import { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Указываем разрешённые источники для разработки
+  allowedDevOrigins: ["http://localhost:3000"],
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
+        pathname: "/wikipedia/**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
