@@ -1,7 +1,7 @@
 import Image from "next/image";
 import "./style.css";
 
-interface IImgParams {
+interface IImgProps {
   src: string;
   alt: string;
   height: number;
@@ -15,7 +15,7 @@ export default function Img({
   height,
   width,
   className,
-}: IImgParams) {
+}: IImgProps) {
   return (
     <div
       className="ImgContainer"

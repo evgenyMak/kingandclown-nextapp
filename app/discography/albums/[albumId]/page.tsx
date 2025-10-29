@@ -1,7 +1,7 @@
 import { AlbumApiService } from "@/api/services/AlbumApiService";
-import Button from "@/components/Button/Button";
+import Button from "@/components/ui/Button/Button";
 import Header from "@/components/Header/Header";
-import Img from "@/components/Img/Img";
+import Img from "@/components/ui/Img/Img";
 import Main from "@/components/Main/Main";
 import { IAlbumItem } from "@/interfaces/IAlbumItem";
 import { ISong } from "@/interfaces/ISong";

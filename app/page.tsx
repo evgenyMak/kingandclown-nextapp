@@ -1,5 +1,5 @@
 import Header from "@/components/Header/Header";
-import Img from "@/components/Img/Img";
+import Img from "@/components/ui/Img/Img";
 import Image from "next/image";
 
 export default function Home() {
