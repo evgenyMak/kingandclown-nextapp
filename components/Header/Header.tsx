@@ -1,6 +1,6 @@
 import { navConfig } from "@/tsConfigs/navConfig";
 import NavigationMenu from "../NavigationMenu/NavigationMenu";
-import Container from "../utilsComponents/Container/Container";
+import Container from "../Container/Container";
 import "./style.css";
 
 export default function Header({

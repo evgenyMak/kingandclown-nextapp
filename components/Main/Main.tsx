@@ -1,4 +1,4 @@
-import Container from "../utilsComponents/Container/Container";
+import Container from "../Container/Container";
 import "./style.css";
 
 export default function Main({
