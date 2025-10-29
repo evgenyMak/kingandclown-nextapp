@@ -1,5 +1,5 @@
 import { navConfig } from "@/tsConfigs/navConfig";
-import NavigationMenu from "../NavigationMenu/NavigationMenu";
+import NavigationMenu from "@/components/ui/NavigationMenu/NavigationMenu";
 import Container from "../Container/Container";
 import "./style.css";
 

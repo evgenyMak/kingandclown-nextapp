@@ -1,7 +1,7 @@
 "use client";
 
 import "./style.css";
-import INavItem from "../../interfaces/INavItem";
+import INavItem from "@/interfaces/INavItem";
 import { usePathname } from "next/navigation";
 
 type NavigationMenuProps = {
