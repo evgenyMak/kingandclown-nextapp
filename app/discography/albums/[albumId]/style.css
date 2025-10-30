@@ -52,3 +52,7 @@
   color: #d9ff00;
   text-decoration: none;
 }
+
+.main .content-container {
+  flex-direction: column;
+}
